@@ -15,9 +15,8 @@
     <div class="col-xs-12" >
       <app-recipe-item 
         *ngFor="let recipe of recipes"
-        [name]="recipe.name"
-        [description]="recipe.description"
-        [imagePath]='recipe.imagePath'
+        [recipe]="recipe"
+        (onRecipeSelect)="onRecipeSelected(recipe)"
       ></app-recipe-item>
     </div>
   </div>
