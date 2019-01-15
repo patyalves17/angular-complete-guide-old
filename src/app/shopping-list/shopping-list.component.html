@@ -7,8 +7,10 @@
     <hr>
     The list
     <ul class="list-group">
+
+        <!-- [appHightlight]="'red'" -->
       <a
-      appHightlight 
+        [appHightlight]="'red'" defaultColor="yellow"
         class="list-group-item"
         style="cursor: pointer"
         *ngFor="let ingredient of ingredients"

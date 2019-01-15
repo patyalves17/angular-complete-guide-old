@@ -10,6 +10,7 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { HeaderComponent } from './header/header.component';
 import { HightlightDirective } from './shared/directives/hightlight.directive';
+import { DropdownDirective } from './shared/directives/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HightlightDirective } from './shared/directives/hightlight.directive';
     ShoppingListComponent,
     ShoppingEditComponent,
     HeaderComponent,
-    HightlightDirective
+    HightlightDirective,
+    DropdownDirective
   ],
   imports: [
     BrowserModule
