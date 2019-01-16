@@ -9,8 +9,10 @@ export class DropdownDirective {
   constructor() { }
 
   @HostListener('click') mouseClick(eventData:Event){
-    console.log("mouseClick");
     this.isOpen=!this.isOpen;
   }
+  // @HostListener('mouseleave') mouseLeave(eventData:Event){
+  //   this.isOpen=false;
+  // }
 
 }
