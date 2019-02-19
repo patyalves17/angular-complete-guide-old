@@ -9,7 +9,5 @@ export class AppComponent {
   loadedFeature:string='recipe';
   title = 'aungular-complete-guide';
 
-  onNavigate(event){
-    this.loadedFeature=event;
-  }
+ 
 }
