@@ -18,6 +18,7 @@ import { RecipeStartComponent } from './repices/recipe-start/recipe-start.compon
 import { RecipeEditComponent } from './repices/recipe-detail/recipe-edit/recipe-edit.component';
 import { ShoppingListService } from './shopping-list/shopping-list.service';
 import { RecipeService } from './repices/recipe.service';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { RecipeService } from './repices/recipe.service';
     HightlightDirective,
     DropdownDirective,
     RecipeStartComponent,
-    RecipeEditComponent
+    RecipeEditComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,

@@ -6,11 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./repices.component.css']
 })
 export class RepicesComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-    
-  }
-
+  ngOnInit() {}
 }
