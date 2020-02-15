@@ -30,7 +30,6 @@ export class AuthComponent {
     let authObs: Observable<AuthResponseData>;
 
     if (this.isLoginMode) {
-      //TODO implement login
       authObs = this.authService.login(email, password);
     } else {
       authObs = this.authService.signup(email, password);
@@ -48,11 +47,5 @@ export class AuthComponent {
         this.isLoading = false;
       }
     );
-  }
-
-  handleError(errorMessage) {
-    console.log(errorMessage);
-    this.error = errorMessage;
-    this.isLoading = false;
   }
 }
